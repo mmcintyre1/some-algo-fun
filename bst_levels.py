@@ -3,6 +3,10 @@ The solution uses a queue and a list to house results as it steps through each n
 
 Normally these traversals are something like in order, post order, or pre order traversal, 
 so this queue system could be adopted to tally up items by levels.
+
+BTW I know this is a pain in the ass way to create Nodes, but I was just borrowing from how the 
+nodes were created on codewars.  It's much easier to do a = Node(1), a.left=Node(2), etc, which would 
+require the defaults to be changed in the class.
 """
 
 
